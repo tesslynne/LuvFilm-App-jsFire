@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Film Luv</title>
+	 <!--for calling firebase-->
+ <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+ 
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+		<h1>Luv Film</h1>
+		<h3>Save all of your favorite movies here</h3>
+		<input type="text" id="movieName" placeholder="Films you love go here" onkeypress="return saveToList(event)">
+	<!-- 	<button type="button" id="movieBtn" value="submit">add</button> -->
+		<h4>Films I Love</h4>
+		<ol id="favMovies">
+		</ol>
+
+ <!--SCRIPTS-->
+ <!--for the app functionality -->
+ <script src="app.js"></script>
+</body>
+</html>
